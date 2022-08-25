@@ -109,12 +109,15 @@ class App extends Component {
             }
             style={{ display: 'inline' }}
           >
-            <span
-              className='iconify language-icon'
-              data-icon='twemoji-page-facing-up'
-              data-inline='false'
-              id={window.$secondaryLanguageIconId}
-            ></span>
+            <a href='https://github.com/Drblessing/portfolio/blob/main/public/documents/Resume.pdf?raw=True'>
+              Download My Resume
+              <span
+                className='iconify language-icon'
+                data-icon='twemoji-page-facing-up'
+                data-inline='false'
+                id={window.$secondaryLanguageIconId}
+              ></span>
+            </a>
           </div>
         </div>
         <About
