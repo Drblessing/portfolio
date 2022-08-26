@@ -6,103 +6,90 @@
       "about": "About me",
       "projects": "Projects",
       "skills": "Skills",
-      "experience": "Experience"
+      "experience": "Education"
     }
   },
   "projects": [
     {
-      "title": "Animal Shelter",
-      "startDate": "2020",
-      "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-      "images": [
-        "images/portfolio/animal-shelter/p1.jpg",
-        "images/portfolio/animal-shelter/p2.jpg"
-      ],
+      "title": "Deep Learning USF Practicum at Stanford",
+      "startDate": "2021",
+      "description": "Utilized deep neural networks and computer vision models like Unet for synthetic generation of Gadolinium-enhanced MRI images.",
+      "images": ["images/portfolio/practicum/mri.jpg"],
       "url": "",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-pytorch-plain",
+          "name": "Pytorch"
+        }
+      ]
+    },
+    {
+      "title": "Predicting League of Legends Matches with Machine Learning",
+      "startDate": "2020",
+      "description": "For my data mining class, I lead a group to successfully predict the outcome of professional League of Legends matches after 10 minutes with a 66% accuracy using GaussianNB with Naive priors [0.5,0.5] priors. I tested over 10 ML Algorithms, including Random Forest, QDA, and KNeighbors. Also, I used popular data science libraries like Numpy, Pandas, and Scikit-learn.",
+      "images": [
+        "images/portfolio/LoL/EGS_LeagueofLegends_RiotGames_S1_2560x1440-ee500721c06da3ec1e5535a88588c77f.jpeg"
+      ],
+      "url": "https://github.com/Drblessing/LoLPredictions",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-kaggle-original",
+          "name": "Kaggle"
+        }
+      ]
+    },
+    {
+      "title": "Blackjack on the Blockchain",
+      "startDate": "2022",
+      "description": "Won an Ethereum hackathon prize leading a five-person team bringing blackjack to the blockchain. Afterward, I developed the frontend, backend, and smart contracts for a fully-featured blackjack MVP on Ethereum. The front end is coded in Typescript, Tailwind, and React. I coded the backend in Typescript with serverless functions and the smart contracts in Solidity. I integrated Chainlink VRF for on-chain randomness. The code is on my GitHub, and I deployed the MVP to Vercel.",
+      "images": ["images/portfolio/hackjack/hackjack.png"],
+      "url": "https://hackjack-2slk53zh6-drblessing.vercel.app/",
+      "technologies": [
+        {
+          "class": "devicon-solidity-plain",
+          "name": "Solidity"
         },
         {
           "class": "devicon-typescript-plain",
           "name": "TypeScript"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
-        }
-      ]
-    },
-    {
-      "title": "Photography",
-      "startDate": "2018",
-      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-      "images": [
-        "images/portfolio/photography/p1.jpg",
-        "images/portfolio/photography/p2.jpg"
-      ],
-      "url": "https://github.com",
-      "technologies": [
-        {
-          "class": "devicon-react-original",
-          "name": "React"
-        },
-        {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        }
-      ]
-    },
-    {
-      "title": "3D Object Viewer",
-      "startDate": "2015",
-      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-      "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
-      ],
-      "url": "https://github.com",
-      "technologies": [
-        {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
-        },
-        {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
-        },
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-tailwindcss-plain",
+          "name": "Tailwind"
         }
       ]
     }
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - present",
-      "mainTech": ["Angular 8/9/10"],
+      "company": "M.S. in Data Science (GPA 3.85/4)",
+      "title": "University of San Francisco",
+      "years": "August 2020 - August 2021",
+      "mainTech": [""],
       "technologies": [
-        "REST API",
-        "RxJS",
-        "JavaScript",
-        "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        ".NET Core",
-        "SignalR",
-        "Angular Material"
+        "Data Structures and Algorithms",
+        "Distributed Computing (Spark)",
+        "SQL",
+        "Machine Learning",
+        "Experimental Design (A/B testing)",
+        "NLP",
+        "Deep Learning"
       ]
     },
     {
-      "company": "Serros Solutions",
-      "title": "Intern",
-      "years": "01.2018 - 09.2019",
+      "company": "B.S. in Applied Mathematics and Statistics (GPA 3.84/4) B.S. in Chemical and Biomolecular Engineering",
+      "title": "The Johns Hopkins University",
+      "years": "September 2016 - May 2020",
       "mainTech": ["Angular 7/8"],
-      "technologies": ["RxJS", "Django", "PHP", "JavaScript", "DHTMLX Gantt"]
+      "technologies": ["Data Mining", "Statistics"]
     }
   ]
 }
