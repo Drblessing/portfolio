@@ -28,6 +28,19 @@ class Experience extends Component {
             </Badge>
           );
         });
+
+        const test = work.company.map((info, i) => {
+          return (
+            <h4
+              key={i}
+              className='vertical-timeline-element-subtitle'
+              style={{ textAlign: 'left' }}
+            >
+              {info} <br />
+            </h4>
+          );
+        });
+
         return (
           <VerticalTimelineElement
             className='vertical-timeline-element--work'
@@ -50,12 +63,7 @@ class Experience extends Component {
             >
               {work.title}
             </h3>
-            <h4
-              className='vertical-timeline-element-subtitle'
-              style={{ textAlign: 'left' }}
-            >
-              {work.company}
-            </h4>
+            {test}
             <div style={{ textAlign: 'left', marginTop: '15px' }}>{tech}</div>
           </VerticalTimelineElement>
         );
